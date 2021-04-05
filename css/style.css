@@ -1,0 +1,80 @@
+*{
+    margin:0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+@font-face{
+    font-family: 'nazanin';
+    src: url('../fonts/B-NAZANIN.TTF');
+}
+body{
+    direction: rtl;
+    font-family: 'nazanin';
+}
+a{
+    text-decoration: none;
+    color: black;;
+}
+.container {
+    max-width: 1100px;
+    margin:5px auto 5px auto;
+}
+#header{
+    width: 100%;
+}
+#header-top{
+    width: 100%;
+    height: 60px;
+    background-color: blue;
+}
+#header-top-right{
+    float: right;
+    width: 70%;
+}
+#header-top-left{
+    float: left;
+    width: 30%;
+}
+#header-top-right ul{
+    list-style: none;
+}
+#header-top-right ul li{
+    line-height: 60px;
+    float: right;
+    padding-right: 15px;;
+}
+#header-top-right a{
+    color: white;
+    font-size: 20px;
+}
+#header-top-right a:hover{
+    color: black;
+}
+#header-bottom{
+    width: 100%;
+    height: 500px;
+    float: right;
+    position: relative;
+}
+#header-bottom img{
+    opacity: 0.8;
+}
+#header-bottom-cover{
+    position: absolute;
+    top: 40%;
+    text-align: center;
+    width: 100%;
+    float: right;
+}
+#header-bottom-cover h1{
+    color: white;
+}
+.btn{
+    border: none;
+    padding: 7px 13px 7px 13px;
+    background-color: blueviolet;
+    color: white;
+    font-family: 'nazanin';
+    font-size: 20px;
+    border-radius: 5px;;
+}
