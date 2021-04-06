@@ -155,3 +155,47 @@ footer{
     /* padding-top: 10px; */
     line-height: 280px;
 }
+#sec{
+    width: 100%;
+    float: right;
+}
+#sec-container{
+    width: 100%;
+    float: right;
+    position: relative;
+    height: 400px;
+}
+#sec-container-cover{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    text-align: center;
+    width: 100%;
+    height: 400px;
+}
+#sec-container-cover h1{
+    color: white;
+}
+.sec-div{
+    width: 80%;
+    margin: 5px auto 5px auto;
+    /* background-color: blueviolet; */
+    padding: 5px;
+    color: white;
+    text-align: justify;
+    margin-top: 10px;
+}
+
+.sec-div p{
+    padding: 5px 15px 5px 15px;
+    background-color: blueviolet;
+    height: 150px;
+}
+#sec-container-cover-2{
+    position: absolute;
+    top: 100px;
+    right: 0px;
+    text-align: center;
+    width: 100%;
+    height: 400px;
+}
