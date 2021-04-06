@@ -79,14 +79,15 @@ a{
     border-radius: 5px;;
 }
 #sec1 {
-    margin-top: 5px;
+    margin-top: 1px;
+    float: right;
 }
 #sec1-right{
     width: 50%;
     height: 300px;
     text-align: center;
     float: right;
-    background-color: black;
+    background-color: #333;
     color: white;
     padding-top: 50px;
 }
@@ -94,4 +95,33 @@ a{
     width: 50%;
     height: 300px;
     float: left;
+}
+#sec2{
+    margin-top: 1px;
+    width: 100%;
+    float: right;
+    
+}
+#sec2-right{
+    float: right;
+    width: 33.33%;
+    height: 220px;
+    text-align: center;
+    padding-top: 50px;
+}
+#sec2-center{
+    float: right;
+    width: 33.33%;
+    height: 220px;
+    text-align: center;
+    padding-top: 50px;
+    background-color: blueviolet;
+    color: white;
+}
+#sec2-left{
+    float: right;
+    width: 33.33%;
+    height: 220px;
+    text-align: center;
+    padding-top: 50px;
 }
