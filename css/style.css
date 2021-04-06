@@ -78,3 +78,20 @@ a{
     font-size: 20px;
     border-radius: 5px;;
 }
+#sec1 {
+    margin-top: 5px;
+}
+#sec1-right{
+    width: 50%;
+    height: 300px;
+    text-align: center;
+    float: right;
+    background-color: black;
+    color: white;
+    padding-top: 50px;
+}
+#sec1-left{
+    width: 50%;
+    height: 300px;
+    float: left;
+}
