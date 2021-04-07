@@ -58,6 +58,7 @@ a{
 }
 #header-bottom img{
     opacity: 0.8;
+    height: 500px;
 }
 #header-bottom-cover{
     position: absolute;
@@ -95,6 +96,9 @@ a{
     width: 50%;
     height: 300px;
     float: left;
+}
+#sec1-left img{
+    height: 300px;
 }
 #sec2{
     margin-top: 1px;
